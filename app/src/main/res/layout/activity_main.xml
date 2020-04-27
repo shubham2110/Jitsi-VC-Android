@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:id="@+id/top_container"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode ="true">
+    <TextView
+        android:id="@+id/enter_meeting_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start a new meeting "
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/conferenceName"
+        android:layout_below="@+id/enter_meeting_label"
+        android:hint="Meeting Room Name"
+        android:background="@drawable/edit_text_back"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/container1"
+        android:layout_below="@+id/conferenceName"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_text"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:id="@+id/info_msg"
+            android:paddingTop="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="CREATE/ JOIN"
+            android:textColor="@color/white"
+            android:background="@color/button_color"
+            android:id="@+id/button4"
+            android:onClick="onButtonClick"
+            android:layout_below="@+id/info_msg"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="2dp"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/button_color"
+        android:id="@+id/footer"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/copyright_msg"
+            android:text="Developed by Corporate Information Systems Dept."
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

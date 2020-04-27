@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IOC Connect</string>
+    <string name="info_text">Enter the name or URL of the room you want to join. You may make a name up, just let the people you are meeting know it so that they enter the same name.</string>
+</resources>
