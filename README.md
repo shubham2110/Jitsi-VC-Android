@@ -3,8 +3,7 @@ Sample Code for Jitsi Meet Android SDK
 
 This is a sample code for Jitsi Android SDK.
 
-![Screenshot Jitsi-VC-Android](https://raw.githubusercontent.com/shubham2110/Jitsi-VC-Android/master/arts/screenshot.jpg){:height="30%" width="30%"}
-
+<img src="https://raw.githubusercontent.com/shubham2110/Jitsi-VC-Android/master/arts/screenshot.jpg" width="200" height="320">
 
 ## Features:
  1. You can set your custom jitsi domain. 
